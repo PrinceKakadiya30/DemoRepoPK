@@ -1,0 +1,27 @@
+Public Repo: https://github.com/SathishKumarMariappan/DemoLearnGIT.git
+
+clone: git clone <repo link>
+clone passkey: git clone https://<username>:<token>@github.com/<username>/<reponame>.git
+
+Stage: git add <. or file name >
+git commit -m "Some message"
+git push <branch or it takes the default branch main>
+git pull 
+
+sshkey gen:ssh-keygen -t rsa -b 4096 -C "email@some.com"
+
+password will be your system password, it will be hidden when you type the password
+
+copy the content of .pup and add to github: profile-> settings-> ssh key and gpg key -> create new -> add the title and the content of .pub file 
+try to access the private folders before and after adding the ssh key 
+
+Assignment:
+Create Public and Private Repos
+Invite one of your co learns to the repo as collaborator
+Clone your Repos in local
+Add a new file to the local repo 
+stage commit and push the new change 
+
+Ask yr collaborator to pull your file 
+and pull yr Collaborator file to yr local by cloning
+
