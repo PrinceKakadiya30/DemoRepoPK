@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo su -
+apt update
+apt install software-properties-common -y
+apt-add-repository --yes --update ppa:ansible/ansible
+apt update
+apt install ansible -y
+apt install nginx -y
+apt install git -y
+apt install stress -y
+git clone https://github.com/bkrraj/ansibletemplatetesting.git  /myrepo
